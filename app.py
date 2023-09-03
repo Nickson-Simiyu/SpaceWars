@@ -13,6 +13,10 @@ def new_game():
     subprocess.Popen(['python', 'pygame_app.py'])
     return redirect(url_for('index'))
 
+@app.route('/instructions')
+def index():
+    return render_template('instructions.html')
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
