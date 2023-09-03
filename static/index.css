@@ -1,0 +1,48 @@
+body {
+    background-image: url('../static/Assets/space.png');
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container take up the full viewport height */
+}
+a{
+    text-decoration: none;
+}
+a h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: orangered;
+}
+h1{
+    color:white;
+    transition: color 0.3s ease;
+    font-size: 50px;
+}
+h1:hover{
+    color: orangered;
+}
+h2{
+    color: white;
+}
+a h3{
+    color: white;
+}
+a h3:hover{
+    color: orangered;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+ol {
+    color: white;
+}
