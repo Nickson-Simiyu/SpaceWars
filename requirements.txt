@@ -1,2 +1,4 @@
 Flask==2.2.2
 pygame==2.5.1
+Pygments>=2.0,<3,!=2.0.4
+gunicorn
