@@ -10,7 +10,7 @@ def index():
 @app.route('/new-game')
 def new_game():
     print("Starting the game...")
-    subprocess.Popen(['C:\python311\python.exe', 'pygame_app.py'])
+    subprocess.Popen(['python', 'pygame_app.py'])
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
