@@ -31,9 +31,9 @@ To run SpaceWars on your local machine, follow these steps:
 1. Clone the repository to your computer:
 
    ```bash
-   git clone https://github.com/yourusername/SpaceWars.git
+   git clone https://github.com/Nickson-Simiyu/SpaceWars.git
    cd SpaceWars
-    flask run
+   python app.py
 
 ## Troubleshooting
 
@@ -43,7 +43,7 @@ If you encounter any issues while running SpaceWars or have questions about the 
 
 - **Update Pygame:** Make sure you have the latest version of Pygame installed by running `pip install pygame --upgrade`.
 
-- **Report Bugs:** If you come across any bugs or unexpected behavior, please report them by opening an issue in the [GitHub repository](https://github.com/yourusername/SpaceWars/issues). Include details about the issue and steps to reproduce it.
+- **Report Bugs:** If you come across any bugs or unexpected behavior, please report them by opening an issue in the [GitHub repository](https://github.com/Nickson-Simiyu/SpaceWars/issues). Include details about the issue and steps to reproduce it.
 
 ## Contributing
 
